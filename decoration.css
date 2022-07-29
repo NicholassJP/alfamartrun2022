@@ -1,6 +1,6 @@
   body{
     margin: 0;
-    background-color: #CD5C5C !important;
+    background-color: #3d3d3d !important;
   }
   ul {
     list-style-type: none;
@@ -28,3 +28,4 @@
       font-weight: 600;
       color: white !important;
     }
+    

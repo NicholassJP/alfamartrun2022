@@ -22,6 +22,7 @@
   <body>
     <!-- Nav -->
     <div class="container">
+      <header>
       <div class="top-nav">
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" width="160px" alt="" />
@@ -33,36 +34,44 @@
             </a>
           </li>
           <li>
-            <a class="ml-5" target="_blank" href="">
+            <a class="ml-media" target="_blank" href="">
               <i class="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a class="ml-5" target="_blank" href="">
+            <a class="ml-media" target="_blank" href="">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a class="ml-5" target="_blank" href="">
+            <a class="ml-media" target="_blank" href="">
               <i class="fa-brands fa-youtube"></i>
             </a>
           </li>
         </ul>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <ul class="navbar-nav nav-text mt-3">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <a class="btn btn-primary ml-auto mt-3">REGISTER</a>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line"></span> 
+            <span class="line"></span> 
+            <span class="line" style="margin-bottom: 0;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-link nav-text mt-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          
+          <a class="btn btn-primary ml-auto mt-button">REGISTER</a>
+        </div>
+        </nav>
       <!-- Akhir Nav -->
 
       <!-- Content 1 -->
@@ -83,26 +92,26 @@
 
       <!-- Content 2 -->
       <h1 class="text-center">Lorem Ipsum</h1>
-      <div class="d-flex text-center">
-        <div class="card-1">
+      <div class="row text-center">
+        <div class="card-1 col-lg-3">
           <img src="" alt="IMG-1" />
           <h5>Lorem</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
 
-        <div class="card-2">
+        <div class="card-2 col-lg-3">
           <img src="" alt="IMG-2" />
           <h5>Lorem</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
 
-        <div class="card-3">
+        <div class="card-3 col-lg-3">
           <img src="" alt="IMG-3" />
           <h5>Lorem</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
 
-        <div class="card-4">
+        <div class="card-4 col-lg-3">
           <img src="" alt="IMG-4" />
           <h5>Lorem</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -110,7 +119,13 @@
       </div>
     </div>
   </body>
+  <div class="instagram-cover">
 
+    <a href="" class="instagram-item">
+      <ul><li>Testing </li></ul>
+      <img src="/images/run.png" alt="" />
+    </a>
+  </div>
   <script
     src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
