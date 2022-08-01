@@ -74,8 +74,12 @@
   height: 100vh;
   margin-top: -6rem;
 }
-
-
+.margin-jumbotron{
+  margin-left: 1.6rem;
+}
+.s-our-mission {
+  padding: 100px 0px 150px 0px;
+}
 .display-4{
   margin-top: 10rem;
 }
@@ -198,6 +202,7 @@
 }
 
 
+/* Mobile */
 @media (max-width: 990px){
   .navbar {
     top: 4rem;
@@ -250,6 +255,10 @@
     margin-bottom: 1rem;
 }
 
+.display-4 {
+margin-top: 20rem;
+}
+
 header{
   z-index: 2;
   position: fixed;
@@ -270,6 +279,9 @@ header{
 }
 .instagram-cover .instagram-item {
     width: 33.33%;
+}
+.margin-jumbotron{
+  margin-left: 0;
 }
 }
   
