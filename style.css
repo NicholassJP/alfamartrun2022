@@ -1,5 +1,5 @@
 :root {
-    --color10: #ED1C24;
+    --color10: #FCD94B;
     --color30: #FFFFFF;
     --color60: #bbb2b2;
   }
@@ -17,9 +17,6 @@
   .nav-link{
     padding: 0 !important;
     padding-right: 2rem !important;
-  }
-  .navbar {
-    border-top: 1px solid var(--color30);
   }
 
 .navbar-nav li a:hover {
@@ -44,6 +41,51 @@
     background-color: var(--color10);
     -webkit-transition: width .35s ease;
     transition: width .35s ease;
+}
+.navbar-collapse{
+  border-top: 1px solid var(--color30);
+}
+.nav-gone-active{
+  display: none !important;
+}
+.bg-header{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  bottom: -2px;
+}
+.nav-fixed {
+  position: fixed !important;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+  height: 100px;
+}
+
+.nav-active {
+  top: 0;
+  background-color:black;   
+}
+
+/* Jumbotron */
+.jumbotron{
+  background:linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.712)), url(/images/background.png);
+  background-size: cover;
+  height: 100vh;
+  margin-top: -6rem;
+}
+
+
+.display-4{
+  margin-top: 10rem;
+}
+
+/* Our Mission */
+.ourmission img{
+  width: 500px;
+  height: 300px;
+  border-radius: 30px 0px;
+  object-fit: cover;
 }
 
 .instagram-cover {
@@ -95,8 +137,8 @@
 
 .navbar-toggler{
   position: absolute;
-    right: 0;
-    top: -60px;
+  top: -3rem;
+  right: 0;
 }
 
 .instagram-cover .instagram-item:before {
@@ -158,11 +200,20 @@
 
 @media (max-width: 990px){
   .navbar {
+    top: 4rem;
     border-top: 0px solid var(--color30);
   }
+  .bg-header{
+   display: none;
+  }
+.nav-fixed{
+  height: 0;
+}
+
   .nav-link li:hover a:after {
     width: 0;
 }
+
 .navbar-collapse{
   text-align: center;
 }
@@ -173,6 +224,10 @@
   .top-nav ul{
     display: none !important;
   }
+  .top-nav{
+    position: fixed;
+    margin-top: 80px;
+  }
   .ml-media{
     margin-left: 1rem !important;
   }
@@ -180,6 +235,39 @@
     margin-top:0rem;
   }
 
+  .jumbotron{
+    text-align: center;
+  }
+  .display-4{
+    margin-top: 10rem;  
+  }
+.ourmission{
+  text-align: center;
+}
+  .ourmission img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+header{
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 11.5rem;
+  background-color: black;
+}
+
+.navbar-collapse .btn-primary{
+  margin-bottom: 2rem;
+}
+.navbar-brand{
+  margin-top: 0.5rem;
+}
+.navbar-collapse{
+  border-top: unset;
+  background-color: black;
+}
 .instagram-cover .instagram-item {
     width: 33.33%;
 }

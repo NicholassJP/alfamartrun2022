@@ -1,31 +1,55 @@
-  body{
-    margin: 0;
-    background-color: #3d3d3d !important;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+:root {
+  --color10: #FCD94B;
+  --color30: #FFFFFF;
+  --color60: #bbb2b2;
+  --colorbutton: #005DA2;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.color-10{
+  color: var(--color10);
+}
+h3{
+  font-size: 40px !important;
+  font-weight: bold !important;
+  color: #414141;
+}
+h5{
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+p{
+  font-size: 18px;
+  color: #414141;
+}
+ul {
+  list-style-type: none;
+  margin-block: auto !important;
+}
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  a{
+  color: unset !important;
   }
-  ul {
-    list-style-type: none;
-    margin-block: auto !important;
-  }
-    a:link { text-decoration: none; }
-    a:visited { text-decoration: none; }
-    a:hover { text-decoration: none; }
-    a:active { text-decoration: none; }
-    a{
-    color: unset !important;
-    }
 
-    /* Button */
-    .btn-primary{
-      color: var(--color30) !important;
-      font-weight: 600 !important;
-      background-color: var(--color10) !important;
-      border: none !important;
-    }
+  /* Button */
+  .btn-primary{
+    color: var(--colorbutton) !important;
+    font-weight: 600 !important;
+    background-color: var(--color30) !important;
+    border: none !important;
+    border-radius: 12px 0px !important;
+  }
+
+  /* Text */
+  .nav-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: white !important;
+  }
   
-    /* Text */
-    .nav-text{
-      font-size: 18px;
-      font-weight: 600;
-      color: white !important;
-    }
-    
