@@ -63,6 +63,14 @@ ul {
     border-radius: 12px 0px !important;
   }
 
+  .btn-register{
+    color: var(--color30) !important;
+    font-weight: 600 !important;
+    background-color: var(--colorbutton) !important;
+    border: none !important;
+    border-radius: 12px 0px !important;
+  }
+
   /* Text */
   .nav-text{
     font-size: 18px;

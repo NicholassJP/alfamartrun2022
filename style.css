@@ -93,76 +93,11 @@
   border-radius: 30px 0px;
   object-fit: cover;
 }
-
-.instagram-cover {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  color: #fff;
-}
-
-.instagram-cover .instagram-item:hover img {
-  -webkit-transition-duration: .8s;
-  transition-duration: .8s;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.instagram-cover img {
-  display: block;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
-}
-
-.instagram-cover .instagram-item {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  color: #fff;
-  overflow: hidden;
-}
-
-.instagram-cover .instagram-item:hover:before {
-  opacity: 1;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-}
-
 .navbar-toggler{
   position: absolute;
   top: -3rem;
   right: 0;
 }
-
-.instagram-cover .instagram-item:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  -webkit-transition: .35s ease;
-  transition: .35s ease;
-  background: rgba(0,0,0,0.5);
-  -webkit-transform: translate(-50%, -50%) scale(0);
-  transform: translate(-50%, -50%) scale(0);
-  opacity: 0;
-}
-
 .ml-media{
   margin-left: 3rem !important;
 }
@@ -178,25 +113,6 @@
   height: 2px;
   background-color: #fff;
   margin-bottom: 5px;
-}
-
-.instagram-cover .instagram-item ul {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  letter-spacing: 0;
-  opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-}
-
-.instagram-cover .instagram-item:hover ul {
-  opacity: 1;
-  top: 50%;
-  left: 84%;
 }
 
 .mt-button{
@@ -321,9 +237,6 @@
 /* Akhir Schedule */
 
 /* Running Route */
-.kategori-{
-  display: flex;
-}
 .kategori- h5{
   font-size: 40px;
   font-weight: 400;
@@ -333,10 +246,22 @@
   font-weight: bold;
   color: #CD1D2B;
 }
+.border-running{
+  border-top: 1px solid #D9D9D9;
+}
 
-.border-running {
-  border: 1px solid #D9D9D9;
-  width: 250px;
+.bg-map{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 54%;
+  background-image: url(/images/bg_map.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.border-running p{
+  margin-top: 1rem;
 }
 
 /* Akhir Running Route */
@@ -459,9 +384,6 @@ header{
 .navbar-collapse{
   border-top: unset;
   background-color: black;
-}
-.instagram-cover .instagram-item {
-    width: 33.33%;
 }
 .margin-jumbotron{
   margin-left: 0;
