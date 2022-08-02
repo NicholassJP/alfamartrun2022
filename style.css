@@ -260,6 +260,7 @@
 
 /* Akhir Reasons  */
 
+/* Schedule */
 .bg-schedule{
   position: absolute;
   z-index: -1;
@@ -275,6 +276,50 @@
   margin-top: -5rem;
   right: 50px
 }
+.card-schedule{
+  width: max-content; 
+  height: max-content;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  border: 1px solid #D9D9D9;
+}
+
+.s-event-schedule{
+  padding: 100px 0px 0px 0px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.border-schedule {
+  border-left: 1px solid #D9D9D9;
+  height: 100px;
+}
+
+.time-schedule{
+  width: max-content;
+  height: max-content;
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+.card-schedule{
+  margin-bottom: 1rem;
+}
+
+.no-flex{
+  margin-left: 0.8rem;
+}
+
+.no-flex p{
+  display: block;
+  margin: 0;
+}
+/* Akhir Schedule */
+
 .mouse{
   margin-left: auto;
   margin-right: auto;
@@ -300,6 +345,7 @@
 .img-alfamartrun{
   width: 350px;
 }
+
 
 /* Mobile */
 @media (max-width: 990px){
@@ -405,6 +451,12 @@ header{
 }
 .nav-fixed{
   height: 0;
+}
+.center-card{
+  text-align: -webkit-center;
+}
+.s-event-schedule{
+  padding: 0;
 }
 }
   
