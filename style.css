@@ -364,6 +364,11 @@
     }
 }
 
+.kapasitas{
+  font-size: 24px;
+  color: #414141;
+  opacity: 0.4469249636627907;
+}
 /* Mobile */
 @media (max-width: 990px){
   .navbar {
