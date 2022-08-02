@@ -128,11 +128,6 @@
 .mt-button-register{
   margin-top: 4rem;
 }
-
-.mouse-margin{
-  margin-top: -4.5rem;
-}
-
 /* Reasons */
 .bg-reasons{
   position: relative;
@@ -297,28 +292,6 @@
 }
 
 /* Akhir Running Route */
-.mouse{
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  width: 25px;
-  height: 50px;
-  border: 2px solid #fff;
-  border-radius: 20px;
-  display: flex;
-}
-
-.mouse-wheel{
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin: auto;
-  animation: move-wheel 1s linear infinite;
-}
-
 .img-alfamartrun{
   width: 350px;
 }
@@ -351,6 +324,49 @@
 
 .a-flex {
   display: flex;
+}
+.mt--2{
+  margin-top: -1rem;
+}
+/* Mouse Animation */
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%
+}
+.icon-scroll {
+    width: 30px;
+    height: 50px;
+    margin-left: -20px;
+    margin-top: -80px;
+    border: 2px solid #fff;
+    border-radius: 25px
+}
+@media (max-width: 767px) {
+    .icon-scroll {
+        position: relative
+    }
+}
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll
+}
+@keyframes scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(26px)
+    }
 }
 
 /* Mobile */
@@ -452,9 +468,6 @@ header{
 }
 .margin-jumbotron{
   margin-left: 0;
-}
-.mouse-margin {
-  margin-top: 2rem;
 }
 .nav-fixed{
   height: 0;
