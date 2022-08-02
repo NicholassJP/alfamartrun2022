@@ -45,9 +45,7 @@
 .navbar-collapse{
   border-top: 1px solid var(--color30);
 }
-.nav-gone-active{
-  display: none !important;
-}
+
 .bg-header{
   position: absolute;
   width: 100%;
