@@ -102,6 +102,11 @@
   margin-left: 3rem !important;
 }
 
+.img-event{
+  margin-top: 5rem;
+  width: 100%;
+}
+
 .navbar-toggler{
   width: 47px;
   height: 34px;
@@ -202,7 +207,7 @@
 }
 
 .s-event-schedule{
-  padding: 100px 0px 250px 0px;
+  padding: 100px 0px 200px 0px;
 }
 
 .bold{
@@ -248,6 +253,27 @@
 }
 .border-running{
   border-top: 1px solid #D9D9D9;
+}
+
+.s-running-route{
+    padding: 100px 0px 50px 0px;
+}
+
+.text-running-km{
+  margin-top: -8rem;
+}
+
+.margin-running{
+  margin-top: -4rem;
+}
+
+.text-running-km h3{
+  font-weight: 400 !important;
+  color: var(--color30);
+}
+
+.text-running-km p{
+  color: var(--color30);
 }
 
 .bg-map{
@@ -399,6 +425,9 @@ header{
 }
 .s-event-schedule{
   padding: 0;
+}
+.bg-map{
+  height: 110%;
 }
 }
   
