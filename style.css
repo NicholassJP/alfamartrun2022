@@ -101,7 +101,6 @@
 }
 
 .img-event{
-  margin-top: 5rem;
   width: 100%;
 }
 
@@ -253,7 +252,7 @@
 }
 
 .s-running-route{
-    padding: 99px 0px 50px 0px;
+    padding: 99px 0 0 0;
 }
 
 .text-running-km{
@@ -368,17 +367,22 @@
         transform: translateY(26px)
     }
 }
-
-.kapasitas{
-  font-size: 24px;
-  color: #414141;
-  opacity: 0.4469249636627907;
-}
 .mb-1-{
   margin-bottom: -0.8rem !important;
 }
 .mt-1-{
   margin-top: -0.7rem !important;
+}
+/* Register */
+.text-webkit{
+  text-align: -webkit-center;
+}
+.box-register{
+  width: 40%;
+  height: max-content;
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 32px;
 }
 /* Mobile */
 @media (max-width: 990px){
@@ -489,7 +493,7 @@ header{
   padding: 0;
 }
 .bg-map{
-  padding: 2rem 0 0 0;
+  padding: 2rem 0;
 }
 .card-schedule{
   width: 300px;
@@ -530,5 +534,9 @@ header{
 }
 .mb-1-{
   margin: 0;
+}
+.box-register{
+  width: 80%;
+  padding: 1rem;
 }
 }
