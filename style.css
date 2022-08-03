@@ -74,9 +74,7 @@
   background-size: cover;
   margin-top: -6rem;
 }
-.margin-jumbotron{
-  margin-left: 1.6rem;
-}
+
 .s-our-mission {
   padding: 100px 0px 50px 0px;
 }
@@ -327,6 +325,9 @@
 .mt--2{
   margin-top: -1rem;
 }
+.margin-km{
+  margin-left: 1.5rem !important;
+}
 /* Mouse Animation */
 .icon-scroll,
 .icon-scroll:before {
@@ -466,9 +467,7 @@ header{
   border-top: unset;
   background-color: black;
 }
-.margin-jumbotron{
-  margin-left: 0;
-}
+
 .nav-fixed{
   height: 0;
 }
@@ -512,5 +511,8 @@ header{
 }
 .mouse-animation{
   display: none;
+}
+.margin-km{
+  margin-left: 0 !important;
 }
 }
