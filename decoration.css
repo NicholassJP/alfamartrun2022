@@ -148,10 +148,6 @@ ul {
   z-index: 99;
 }
 
-#loading-image {
-  z-index: 100;
-}
-
 
 @keyframes ldio-oyp0e202kk {
   0% { transform: rotate(0) }
