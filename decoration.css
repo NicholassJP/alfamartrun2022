@@ -81,3 +81,57 @@ ul {
   bold{
     font-weight: bold !important;
   }
+
+  /* Segitiga */
+  
+.segitiga-{
+  position: absolute;
+}
+
+.white-1{
+  margin-top: 40rem;
+  margin-left: 4rem;
+}
+
+.white-2{
+  width: 50px;
+  margin-left: -1rem;
+  margin-top: 8rem;
+  transform: rotate(21deg);
+}
+
+.white-3{
+  width: 30px;
+  margin-left: 68%;
+  margin-top: 12rem;
+  transform: rotate(20deg);
+}
+.white-4{
+  width: 70px;
+  margin-left: 80%;
+  margin-top: 26rem;
+}
+.white-5{
+  margin-left: 67%;
+  margin-top: 28rem;
+  transform: rotate(20deg);
+}
+
+.filter-gray{
+  filter: invert(8%) sepia(1%) saturate(0%) hue-rotate(36deg) brightness(95%) contrast(84%);
+}
+
+.white-6{
+  margin-left: 98%;
+}
+
+.white-7{
+  z-index: 1;
+  width: 55px;
+  margin-top: 4rem;
+  margin-left: 5%;
+}
+
+@media (max-width: 1400px){.segitiga-{
+  display: none;
+}}
