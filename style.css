@@ -374,6 +374,12 @@
   color: #414141;
   opacity: 0.4469249636627907;
 }
+.mb-1-{
+  margin-bottom: -0.8rem !important;
+}
+.mt-1-{
+  margin-top: -0.7rem !important;
+}
 /* Mobile */
 @media (max-width: 990px){
   .navbar {
@@ -521,5 +527,8 @@ header{
 }
 .mb-5-{
   margin-bottom: 1rem;
+}
+.mb-1-{
+  margin: 0;
 }
 }
