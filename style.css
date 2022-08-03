@@ -355,6 +355,10 @@
     animation-iteration-count: infinite;
     animation-name: scroll
 }
+
+.mb-5-{
+  margin-bottom: 3rem;
+}
 @keyframes scroll {
     0% {
         opacity: 1
@@ -514,5 +518,8 @@ header{
 }
 .margin-km{
   margin-left: 0 !important;
+}
+.mb-5-{
+  margin-bottom: 1rem;
 }
 }
