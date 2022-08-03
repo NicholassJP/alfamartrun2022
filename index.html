@@ -19,6 +19,11 @@
     crossorigin="anonymous"
   />
   <body>
+    <div id="loading">
+      <div class="display-block">
+        <img id="loading-image" src="/images/load.gif" alt="Loading..." />
+      </div>
+    </div>
     <!-- Nav -->
     <header>
       <div class="container">
@@ -88,11 +93,31 @@
     <!-- Akhir Nav -->
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <img class="segitiga- white-1" src="images/ic_triangle_white.png" alt="segitiga">
-      <img class="segitiga- white-2" src="images/ic_triangle_white.png" alt="segitiga">
-      <img class="segitiga- white-3" src="images/ic_triangle_white.png" alt="segitiga">
-      <img class="segitiga- white-4" src="images/ic_triangle_white.png" alt="segitiga">
-      <img class="segitiga- white-5" src="images/ic_triangle_yellow.png" alt="segitiga">
+      <img
+        class="segitiga- white-1"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
+      <img
+        class="segitiga- white-2"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
+      <img
+        class="segitiga- white-3"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
+      <img
+        class="segitiga- white-4"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
+      <img
+        class="segitiga- white-5"
+        src="images/ic_triangle_yellow.png"
+        alt="segitiga"
+      />
       <div class="container">
         <img
           class="display-4 img-alfamartrun"
@@ -102,9 +127,12 @@
         <h5><i class="fa-solid fa-calendar"></i> Minggu, 23 Oktober 2022</h5>
         <h5><i class="fa-regular fa-clock"></i> Waktu Start</h5>
         <div class="margin-jumbotron">
-          <h5 class="margin-km"><span class="color-10">10KM</span> 06:00 WIB</h5>
+          <h5 class="margin-km">
+            <span class="color-10">10KM</span> 06:00 WIB
+          </h5>
           <h5 class="margin-km"><span class="color-10">5KM</span> 06:15 WIB</h5>
-          <p class="mb-2"><i class="fa-solid fa-location-dot mt-1 mr-2"></i>
+          <p class="mb-2">
+            <i class="fa-solid fa-location-dot mt-1 mr-2"></i>
             Mall Kuningan City Lantai 2 block 3,5,6 , Jakarta Selatan
           </p>
           <p class="margin-km bold">TOTAL HADIAH</p>
@@ -123,7 +151,11 @@
     </div>
     <!-- Our Mission-->
     <section id="ourmission" class="s-our-mission">
-      <img class="segitiga- white-6 filter-gray" src="images/ic_triangle_white.png" alt="segitiga">
+      <img
+        class="segitiga- white-6 filter-gray"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
       <div class="bg-ourmission"></div>
       <div class="container">
         <h3 class="text-center">Our mission</h3>
@@ -161,7 +193,11 @@
     </section>
     <!-- Reasons to run with us! -->
     <section id="reasons" class="s-reasons">
-      <img class="segitiga- white-7 filter-gray" src="images/ic_triangle_white.png" alt="segitiga">
+      <img
+        class="segitiga- white-7 filter-gray"
+        src="images/ic_triangle_white.png"
+        alt="segitiga"
+      />
       <div class="bg-reasons">
         <div class="container">
           <div id="reasons" class="reasons">
@@ -311,7 +347,6 @@
                     <div class="modal-content">
                       <img
                         src="/images/map_10km_large.png"
-                        idth="1150"
                         alt="map_10km_large"
                       />
                     </div>
@@ -345,7 +380,6 @@
                     <div class="modal-content">
                       <img
                         src="/images/map_5km_large.png"
-                        width="1150"
                         alt="map_5km_large"
                       />
                     </div>
@@ -374,11 +408,7 @@
             </div>
             <div class="d-flex justify-content-center">
               <p>Komunitas</p>
-              <p class="ml-5">Rp. 200.000,-</p>
-            </div>
-            <div class="d-flex justify-content-center">
-              <p>Promosi</p>
-              <p class="ml-5">Rp. 250.000,-</p>
+              <p class="ml-5">Rp. 275.000,-</p>
             </div>
             <div class="d-flex justify-content-center">
               <p>Normal</p>
@@ -395,15 +425,11 @@
             </div>
             <div class="d-flex justify-content-center">
               <p>Komunitas</p>
-              <p class="ml-5">Rp. 150.000,-</p>
-            </div>
-            <div class="d-flex justify-content-center">
-              <p>Promosi</p>
-              <p class="ml-5">Rp. 250.000,-</p>
+              <p class="ml-5">Rp. 275.000,-</p>
             </div>
             <div class="d-flex justify-content-center">
               <p>Normal</p>
-              <p class="ml-5">Rp. 300.000,-</p>
+              <p class="ml-5">Rp. 250.000,-</p>
             </div>
           </div>
           <a class="btn btn-register mt-button-register">REGISTER NOW</a>
@@ -415,6 +441,11 @@
     <img class="img-fluid img-event" src="/images/images_event.png" alt="" />
   </body>
   <script>
+    window.onload = function () {
+      document.getElementById("loading").style.display = "none";
+    };
+  </script>
+  <script>
     const navbar = document.querySelector(".nav-fixed");
     window.onscroll = () => {
       if (window.scrollY > 0) {
@@ -425,8 +456,8 @@
     };
   </script>
   <script
-    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"
   ></script>
   <script
