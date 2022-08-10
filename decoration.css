@@ -261,12 +261,23 @@ ul {
   visibility: hidden;
   font-size: 0.8rem;
 }
-
+.webkit-center{
+  text-align: unset;
+}
+.mt-responsive{
+  margin-top: 0;
+}
 /* Mobile */
 @media (max-width: 990px){
   .desktop-none{
     visibility: visible;
     font-size: 1.25rem;
+  }
+  .webkit-center{
+    text-align: -webkit-center;
+  }
+  .mt-responsive{
+    margin-top: 2rem;
   }
 }
 
