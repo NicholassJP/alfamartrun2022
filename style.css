@@ -354,6 +354,24 @@
     animation-iteration-count: infinite;
     animation-name: scroll
 }
+/* Hadiah */
+.s-hadiah{
+  padding-top: 100px;
+}
+
+.card-hadiah{
+  width: 520px; 
+  height: max-content;
+  padding: 1rem 3rem;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  background-image: url("/images/running-icon-3.png");
+  background-position: 18rem -13.5rem;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  border: 1px solid #D9D9D9;
+  text-align: left;
+}
 
 .mb-5-{
   margin-bottom: 3rem;
@@ -538,5 +556,8 @@ header{
 .box-register{
   width: 80%;
   padding: 1rem;
+}
+.card-hadiah{
+width: 300px;
 }
 }
