@@ -124,6 +124,7 @@
 .mt-button-register{
   margin-top: 4rem;
 }
+
 /* Reasons */
 .bg-reasons{
   position: relative;
@@ -304,7 +305,7 @@
 }
 
 .s-register{
-  padding: 100px 0px 50px 0px;
+  padding: 100px 0px 0px 0px;
 }
 
 .img-schedule{
@@ -378,11 +379,13 @@
   text-align: -webkit-center;
 }
 .box-register{
-  width: 40%;
+  width: 100%;
   height: max-content;
   padding: 3rem;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 32px;
+  background: #FBFBFB;
+}
+.content-center-{
+  width: 350px;
 }
 
 /* Hadiah */
@@ -566,12 +569,11 @@ header{
 .mb-1-{
   margin: 0;
 }
-.box-register{
-  width: 80%;
-  padding: 1rem;
-}
 .card-hadiah{
 width: 300px;
 text-align: center;
+}
+.content-center-{
+  width: 250px;
 }
 }
