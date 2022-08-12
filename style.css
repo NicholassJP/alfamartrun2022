@@ -417,7 +417,6 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 /* Mobile */
 @media (max-width: 990px){
   .navbar {
@@ -575,5 +574,11 @@ text-align: center;
 }
 .content-center-{
   width: 250px;
+}
+.f-responsive{
+  font-size: 30px !important;
+}
+.f-responsive-1{
+  font-size: 28px !important;
 }
 }
