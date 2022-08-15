@@ -142,8 +142,8 @@
 
 .human-reasons{
   position: absolute;
-  margin-top: -4rem;
-  margin-left: -2rem;
+  margin-top: 1rem;
+  margin-left: -4rem;
 }
 
 .reasons-cover{
@@ -253,7 +253,7 @@
 }
 
 .s-running-route{
-    padding: 99px 0 0 0;
+  padding: 99px 0 0 0;
 }
 
 .text-running-km{
@@ -277,7 +277,7 @@
   position: relative;
   width: 100%;
   height: max-content;
-  padding: 5rem;
+  padding: 5rem 0 30rem 0;
   background-image: url(/images/bg_map.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -423,6 +423,22 @@
   background-color: white;
   color: white;
 }
+
+.s-section-jersey{
+  text-align: -webkit-center;
+}
+/* Jersey */
+.bg-jersey{
+  position: relative;
+  z-index: 1;
+  height: max-content;
+  margin-top: -22rem;
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.17);
+  background-color: white;
+}
+
 /* Mobile */
 @media (max-width: 990px){
   .navbar {
@@ -443,6 +459,13 @@
 }
 .bg-schedule{
   display: none;
+}
+.bg-jersey h2{
+font-size: 30px !important;
+}
+
+.bg-jersey {
+  margin-top: -2rem;
 }
 
 .s-our-mission {

@@ -61,6 +61,10 @@ ul {
   color: unset !important;
   }
 
+  .color-black{
+    color: black;
+  }
+
   /* Button */
   .btn-primary{
     color: var(--colorbutton) !important;
