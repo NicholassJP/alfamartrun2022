@@ -121,10 +121,6 @@
   margin-top: 1rem;
 }
 
-.mt-button-register{
-  margin-top: 4rem;
-}
-
 /* Reasons */
 .bg-reasons{
   position: relative;
@@ -239,19 +235,6 @@
 /* Akhir Schedule */
 
 /* Running Route */
-.kategori- h5{
-  font-size: 40px;
-  font-weight: 400;
-  color: #0F56A3;
-}
-.kategori- h5 span{
-  font-weight: bold;
-  color: #CD1D2B;
-}
-.border-running{
-  border-top: 1px solid #D9D9D9;
-}
-
 .s-running-route{
   padding: 99px 0 0 0;
 }
@@ -282,10 +265,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-.border-running p{
-  margin-top: 1rem;
 }
 
 /* Akhir Running Route */
@@ -459,10 +438,6 @@
   background-color: white;
 }
 
-.mt-3-{
-  margin-top: 1.3rem !important;
-}
-
 /* Mobile */
 @media (max-width: 990px){
   .navbar {
@@ -519,10 +494,6 @@ font-size: 30px !important;
   .mt-button{
     margin-top:0rem;
   }
-  .mt-button-register{
-    margin-top: 0rem;
-  }
-
   .jumbotron{
     text-align: center;
   }

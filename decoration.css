@@ -158,10 +158,6 @@ ul {
   z-index: 99;
 }
 
-.mt-6{
-  margin-top: 5rem;
-}
-
 .default{
   font-style: unset;
 }
@@ -174,9 +170,6 @@ ul {
 }
 .mt-responsive{
   margin-top: 0;
-}
-.g-4{
-  gap: 4rem;
 }
 .ml-4-{
   margin-left: 1.5rem!important;
