@@ -178,6 +178,9 @@ ul {
 .g-4{
   gap: 4rem;
 }
+.ml-4-{
+  margin-left: 1.5rem!important;
+}
 /* Mobile */
 @media (max-width: 990px){
   .desktop-none{
@@ -189,6 +192,9 @@ ul {
   }
   .mt-responsive{
     margin-top: 2rem;
+  }
+  .ml-4-{
+    margin-left: 0 !important;
   }
 }
 

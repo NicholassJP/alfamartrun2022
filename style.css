@@ -621,9 +621,7 @@ width: calc(100% - 30px);
 padding: 1rem 0;
 text-align: center;
 }
-.flex-mobile{
-  display: flex;
-}
+
 .content-center-{
   width: 250px;
 }
