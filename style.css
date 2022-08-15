@@ -393,6 +393,21 @@
   padding-top: 100px;
 }
 
+.ic-win{
+  width: 20px;
+  height: 20px;
+}
+
+.card-hadiah p{
+ margin: 0;
+}
+.card-hadiah h5{
+ margin: 0;
+}
+
+.card-hadiah .d-flex{
+  margin-bottom: 0.2rem;
+}
 .card-hadiah{
   width: 520px; 
   height: max-content;
@@ -433,10 +448,14 @@
   z-index: 1;
   height: max-content;
   margin-top: -22rem;
-  padding: 3rem;
+  padding-top: 3rem;
   border-radius: 3rem;
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.17);
   background-color: white;
+}
+
+.mt-3-{
+  margin-top: 1.3rem !important;
 }
 
 /* Mobile */
@@ -598,8 +617,12 @@ header{
   margin: 0;
 }
 .card-hadiah{
-width: 300px;
+width: calc(100% - 30px);
+padding: 1rem 0;
 text-align: center;
+}
+.flex-mobile{
+  display: flex;
 }
 .content-center-{
   width: 250px;
@@ -609,5 +632,8 @@ text-align: center;
 }
 .f-responsive-1{
   font-size: 28px !important;
+}
+.card-hadiah .d-flex{
+  justify-content: center;
 }
 }
