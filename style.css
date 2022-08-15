@@ -448,9 +448,12 @@
   z-index: 1;
   height: max-content;
   margin-top: -22rem;
-  padding-top: 3rem;
+  padding: 3rem 2rem;
   border-radius: 3rem;
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.17);
+  background-image: url("/images/bg_jersey.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
   background-color: white;
 }
 
@@ -485,6 +488,9 @@ font-size: 30px !important;
 
 .bg-jersey {
   margin-top: -2rem;
+  padding: 0;
+  background-image: none;
+  padding-top: 3rem;
 }
 
 .s-our-mission {
