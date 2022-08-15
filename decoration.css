@@ -3,7 +3,7 @@
   --color10: #FCD94B;
   --color30: #FFFFFF;
   --color60: #bbb2b2;
-  --colorbutton: #005DA2;
+  --colorbutton: #E02020;
 }
 html {
 
@@ -181,6 +181,9 @@ ul {
 .ml-4-{
   margin-left: 1.5rem!important;
 }
+.text-right-{
+  text-align: right;
+}
 /* Mobile */
 @media (max-width: 990px){
   .desktop-none{
@@ -195,6 +198,9 @@ ul {
   }
   .ml-4-{
     margin-left: 0 !important;
+  }
+  .text-right-{
+    text-align: center;
   }
 }
 

@@ -200,7 +200,7 @@
   padding: 1rem;
   border-radius: 12px;
   background-color: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.17);
 }
 
 .s-event-schedule{
@@ -382,7 +382,9 @@
   width: 100%;
   height: max-content;
   padding: 3rem;
-  background: #FBFBFB;
+  background-image: url("/images/bg_register.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .content-center-{
   width: 350px;
@@ -418,7 +420,7 @@
   background-position: 18rem -13.5rem;
   background-repeat: no-repeat;
   background-size: 350px;
-  border: 1px solid #D9D9D9;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.17);
   text-align: left;
 }
 
