@@ -58,11 +58,6 @@
   z-index: 2;
   height: 100px;
 }
-
-.jumbotron {
-  padding: 4rem 0rem 0rem 0rem !important;
-}
-
 .nav-active {
   top: 0;
   background-color:black;   
@@ -73,6 +68,8 @@
   background:linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.712)), url(/images/background.png);
   background-size: cover;
   margin-top: -6rem;
+  padding: 4rem 0rem 0rem 0rem !important;
+  margin-bottom: 0 !important;
 }
 
 .s-our-mission {
@@ -468,7 +465,7 @@ font-size: 30px !important;
 }
 
 .s-our-mission {
-  padding: 0px 0px 50px 0px;
+  padding: 60px 0px 50px 0px;
 }
 
 .navbar-collapse{
@@ -546,7 +543,7 @@ header{
   text-align: -webkit-center;
 }
 .s-event-schedule{
-  padding: 0;
+  padding: 60px 0 0 0;
 }
 .bg-map{
   padding: 2rem 0;
