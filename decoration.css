@@ -177,11 +177,20 @@ ul {
 .text-right-{
   text-align: right;
 }
+
+.z-index-1{
+  position: relative;
+  z-index: 1;
+}
+
 /* Mobile */
 @media (max-width: 990px){
   .desktop-none{
     visibility: visible;
     font-size: 1.25rem;
+  }
+  .nopadding{
+    padding: 0 !important;
   }
   .webkit-center{
     text-align: -webkit-center;
