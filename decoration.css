@@ -217,6 +217,12 @@ ul {
   }
 }
 
-@media (max-width: 1400px){.segitiga-{
+@media (max-width: 1400px){
+  .segitiga-{
   display: none;
-}}
+}
+.human-schedule{
+  width: 600px;
+  margin-top: -1rem !important;
+}
+}
