@@ -73,6 +73,11 @@ ul {
     border: none !important;
     border-radius: 12px 0px !important;
   }
+  .btn-primary:hover{
+    background-color: var(--colorbutton) !important;
+    color: var(--color30) !important;
+    transition: all 0.6s ease;
+  }
 
   .btn-register{
     color: var(--color30) !important;
@@ -80,6 +85,12 @@ ul {
     background-color: var(--colorbutton) !important;
     border: none !important;
     border-radius: 12px 0px !important;
+  }
+
+  .btn-register:hover{
+    background-color: var(--color30) !important;
+    color: var(--colorbutton) !important;
+    transition: all 0.6s ease;
   }
 
   /* Text */
